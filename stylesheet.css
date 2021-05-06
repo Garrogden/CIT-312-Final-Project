@@ -1,0 +1,203 @@
+h1 {
+    font-family: "Agency FB";
+}
+
+p {
+    margin-bottom: 50px;
+}
+
+nav {
+    background-color: mediumspringgreen;
+    justify-content: center;
+    align-items: center;
+}
+
+.frontstore {
+    border: 5px solid lightskyblue;
+    margin-bottom: 75px;
+    margin-left: 20px;
+    box-shadow: 5px 10px #888888;
+}
+
+.stack{
+    right: 90%;
+    border: 5px solid lightskyblue;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    box-shadow: 5px 10px #888888;
+}
+
+.cone1 {
+    position:absolute;
+    left: 96%;
+}
+
+.cone2 {
+    position:absolute;
+}
+
+.flavor1 {
+    margin-top: 15px;
+}
+.card1 {
+    width: 300px;
+    height: 400px;
+    background-color: dodgerblue;
+    margin-top: 40px;
+    box-shadow: 5px 10px #888888;
+}
+.fblue {
+   color: floralwhite;
+}
+.cost1{
+    color: floralwhite;
+}
+
+.flavor2 {
+    margin-top: 15px;
+}
+.card2 {
+    width: 300px;
+    height: 400px;
+    background-color: deeppink;
+    margin-top: 40px;
+    box-shadow: 5px 10px #888888;
+}
+.fchoco {
+    color: floralwhite;
+}
+.cost2 {
+    color: floralwhite;
+
+}
+
+.flavor3 {
+    margin-top: 15px;
+
+}
+.card3 {
+    width: 300px;
+    height: 400px;
+    background-color: navajowhite;
+    margin-top: 40px;
+    box-shadow: 5px 10px #888888;
+}
+.vanilla {
+    color: floralwhite;
+}
+.cost3 {
+    color: floralwhite;
+}
+
+.flavor4 {
+    margin-top: 15px;
+}
+.card4 {
+    width: 300px;
+    height: 400px;
+    background-color: saddlebrown;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    box-shadow: 5px 10px #888888;
+}
+.trio {
+    color: floralwhite;
+}
+.cost4 {
+    color: floralwhite;
+}
+
+.title{
+    color: goldenrod;
+    margin-left: 5px;
+}
+.subtitle {
+    margin-left: 25px;
+    margin-bottom: 80px;
+}
+
+.shopowner{
+    border: 5px solid lightskyblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.button {
+    border: none;
+    color: floralwhite;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button2 {background-color: #008CBA;}
+
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+li {
+    font-family: "Arial";
+    display: inline;
+    width: 45px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+ a {
+    text-decoration: none;
+}
+
+.navWrapper {
+    position: fixed;
+    top:40px;
+    right:0px;
+    height: 200px;
+    width: 80px;
+    background-color: mediumspringgreen;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropDown {
+    height: 50px;
+    width: 40px;
+    background-color: mediumspringgreen;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+}
+
+.toggle {
+    display: none;
+}
+
+footer {
+    background-color: mediumspringgreen;
+}
+
+@media screen and (min-width: 600px) {
+    .dropDown{
+        display: none;
+    }
+    .navWrapper{
+        height: 100%;
+        position: relative;
+        width: 100%;
+        background-color: transparent;
+        flex-direction: row;
+        top: 0;
+    }
+}
