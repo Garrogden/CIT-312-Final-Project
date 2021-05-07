@@ -201,3 +201,10 @@ footer {
         top: 0;
     }
 }
+
+@media screen and (min-width: 600px) {
+    .fa-twitter-square{
+       display: inline-block;
+    }
+
+}
